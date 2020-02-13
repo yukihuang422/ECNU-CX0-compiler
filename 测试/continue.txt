@@ -1,0 +1,15 @@
+{
+	int i;
+	i = 5;
+	while(i > 0) {
+
+		if(i == 4) {
+			continue;
+			
+        }
+		else
+			write i;;
+		i = i - 1;
+		
+	};
+}

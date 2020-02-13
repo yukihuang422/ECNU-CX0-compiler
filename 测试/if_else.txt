@@ -1,0 +1,19 @@
+/*{
+	int a;
+	int b;
+  	a = 10;
+	b = 5;
+  	if(a != 10)
+        	write a;
+	else 
+		write b;;
+}*/
+/* 5 */
+{
+	int a;
+	int b;
+	int c;
+	a = 3;
+	a = b = c;
+}
+

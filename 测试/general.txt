@@ -1,0 +1,57 @@
+/* 
+  + - * / % ^ != = == > ++ -- odd const exit int bool
+*/ 
+{
+    int a;
+    int c;
+    bool flag;
+    const int maxn = 100;
+
+    function print
+    {
+        int b;
+        b = 3;
+        write a;
+        write(a + b);
+        write(a * b);
+        write(a / b);
+        write(a % b);
+    }
+
+    read a;
+    while(a != 0) {
+        if(odd(a)) {
+            write 1111111;
+        };
+
+        if(a == 0) {
+            write 2222222;
+        };
+
+        if(a > 0) {
+            flag = true;
+        } else {
+            flag = false;
+        };
+        
+        if(flag) {
+            write 5555555;
+        };
+
+        c = 1;
+
+        call print;
+
+        ++c;
+        write c;
+        --c;
+        write c;
+
+        c = c ^ 0;
+        write c;
+
+        exit;
+
+    };
+
+}

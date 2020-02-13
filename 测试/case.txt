@@ -1,0 +1,20 @@
+{ 
+    int a; 
+    int b; 
+    a = 5; 
+    read b; 
+    switch(b){ 
+       case 1: a++; 
+            write a; 
+            break;
+       case 2: a--; 
+            write a; 
+            break;
+       case 3: a = a * a; 
+            write a; 
+            break;
+       default:
+            write a;
+            break;
+    } 
+}

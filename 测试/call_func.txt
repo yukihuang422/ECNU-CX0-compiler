@@ -1,0 +1,27 @@
+
+{
+    function func1
+    {
+        int i;
+        function print
+        {
+            int k;
+            k = 3;
+            i = 4;
+            write k;
+            write i;
+        }
+
+
+        i = 2;
+        i++;
+        write i;
+
+
+        call print;
+        write i;
+    }
+
+    call func1;
+}
+/* 3 3 4 4 */

@@ -1,0 +1,9 @@
+{
+    int a; 
+    a = 3;
+    repeat{
+        write a; 
+        a++; 
+    } until(a > 4); 
+}
+/* 3 4 */

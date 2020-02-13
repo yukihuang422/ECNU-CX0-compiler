@@ -1,0 +1,11 @@
+{
+    int i;
+    i = 5;
+    while(i > 0) {
+        if(i == 4)
+            break;
+        else
+            write i;;
+        i = i - 1;
+    };
+}

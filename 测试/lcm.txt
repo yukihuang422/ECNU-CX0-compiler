@@ -1,0 +1,21 @@
+{
+    int x;
+    int y;
+    int mul;
+    int r;
+    int lcm;
+
+    read x;
+    read y;
+
+    mul = x * y;
+    while(y != 0) {
+        r = x % y;
+        x = y;
+        y = r;
+    };
+
+    lcm = mul / x;
+    write lcm;
+
+}

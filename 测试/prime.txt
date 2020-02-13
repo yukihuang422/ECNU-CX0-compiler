@@ -1,0 +1,31 @@
+{
+    const int maxn = 100;
+
+    function prime
+    {
+        int i;
+        int j;
+        bool flag;
+        i = 2;
+        write 2;
+        while(i < maxn) {
+            i++;
+            flag = false;
+            j = 2;
+
+            while(i >= j * j) {
+                if(0 == i % j) {
+                    flag = true;
+                    j = i;
+                };
+                j++;
+            };
+
+            if(flag == 0) {
+                write(i);
+            };
+        };
+    }
+
+    call prime;
+}

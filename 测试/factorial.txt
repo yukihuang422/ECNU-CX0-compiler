@@ -1,0 +1,23 @@
+{
+    int a;
+
+    function factorial
+    {
+        int n;
+        int i;
+        int ans;
+
+        read n;
+        ans = 1;
+
+        i = 2;
+        while(i <= n) {
+            ans = ans * i;
+            i++;
+        };
+
+        write ans;
+    }
+
+    call factorial;
+}
